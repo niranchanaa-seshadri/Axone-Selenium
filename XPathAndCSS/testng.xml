@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+
+    <test verbose="2" preserve-order="true"
+          name="chromeTest">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserParam" value="headless"/>
+        <parameter name="url" value="https://uitest.automationtester.uk/basic-first-form-demo.html"/>
+        <classes>
+            <class name="Assign2Ques3">
+                <methods>
+                    <include name="printDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="edgeTest">
+        <parameter name="browserName" value="edge"/>
+        <parameter name="browserParam" value="headless"/>
+        <parameter name="url" value="https://uitest.automationtester.uk/basic-first-form-demo.html"/>
+        <classes>
+            <class name="Assign2Ques3">
+                <methods>
+                    <include name="printDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
