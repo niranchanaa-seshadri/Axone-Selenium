@@ -10,7 +10,14 @@
         <option value="$PROJECT_DIR$/ActionsMouseAndSynchronisation/pom.xml" />
         <option value="$PROJECT_DIR$/HybridFramework/pom.xml" />
         <option value="$PROJECT_DIR$/PageFactoryModelDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/HybridFrameworks/pom.xml" />
+        <option value="$PROJECT_DIR$/HybridFrameworkDemo/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/HybridFrameworks/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
