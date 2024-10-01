@@ -11,7 +11,7 @@
 
     <modules>
         <module>ActionsMouseAndSynchronisation</module>
-        <module>HybridFramework</module>
+        <!--module>HybridFramework</module-->
         <module>ManagingGUIControls</module>
         <module>PageFactoryModelDemo</module>
         <module>Screenshots</module>
