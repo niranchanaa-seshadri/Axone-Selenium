@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Screenshots" />
-        <module name="HybridFramework" />
         <module name="ActionsMouseAndSynchronisation" />
         <module name="PageFactoryModelDemo" />
         <module name="ManagingGUIControls" />
         <module name="XPathAndCSS" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HybridFramework" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
