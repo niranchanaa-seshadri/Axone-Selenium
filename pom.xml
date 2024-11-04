@@ -16,6 +16,9 @@
         <module>PageFactoryModelDemo</module>
         <module>Screenshots</module>
         <module>XPathAndCSS</module>
+        <module>CucumberBasics</module>
+        <module>CucumberAdvanced</module>
+        <module>EndOfCourseAssignment</module>
         <!-- Add other modules as needed -->
     </modules>
 
