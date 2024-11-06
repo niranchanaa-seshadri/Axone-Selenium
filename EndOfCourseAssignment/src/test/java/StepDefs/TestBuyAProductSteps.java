@@ -16,7 +16,7 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
-public class buyAProductSteps {
+public class TestBuyAProductSteps {
 
     WebDriver driver;
     static final int WAIT_TIME = 10;
